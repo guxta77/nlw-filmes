@@ -90,6 +90,7 @@ section ul {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
+    justify-content: center;
 
     margin-top: 24px;
 }
@@ -120,6 +121,10 @@ section ul li:hover{
     width: 90px;
     border-radius: 8px;
     border: 2px solid #51359e;
+}
+
+.social-list {
+    justify-content: flex-start;
 }
 
 footer {
